@@ -1,0 +1,9 @@
+public class Solution {
+    public int SmallestEvenMultiple(int n) {
+        double x = n%2;
+        if (x==0){
+          return n;
+        }
+        return n*2;
+    }
+}

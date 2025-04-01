@@ -1,0 +1,8 @@
+public class Solution {
+    public int MySqrt(int x) {
+
+        double sqrtValue = Math.Sqrt(x);
+        int roundedSqrt = (int)Math.Floor(sqrtValue);
+        return roundedSqrt;
+    }
+}
